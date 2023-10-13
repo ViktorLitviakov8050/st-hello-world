@@ -23,9 +23,11 @@ def add_potential_to_df(df, user_input_coef=1.1):
     return df
 
 
-st.title("Streamlit App")
+st.title("🚗   Streamlit App Autodoc   🚜")
 
-st.subheader("An awesome data visualization app made by Viktor)")
+st_name = st.sidebar.text_input('Entere your name please', '')
+
+st.subheader(f'🚀 An awesome data visual app made by {st_name} with love 🚀')
 
 
 # Task
@@ -40,7 +42,7 @@ st.subheader("An awesome data visualization app made by Viktor)")
 # 9. Show plot with real, plan and potential values
 
 # 10*. Extra tasks: User input 3 country names (or N countries)
-# Show plan and real values for all countries together 
+# Show plan and real values for all countries together
 # Show plan and real values for each country separately
 
 
