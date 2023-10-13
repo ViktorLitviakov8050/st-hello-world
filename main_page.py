@@ -25,7 +25,7 @@ def add_potential_to_df(df, user_input_coef=1.1):
 
 st.title("🚗   Streamlit App Autodoc   🚜")
 
-st_name = st.sidebar.text_input('Entere your name please', '')
+st_name = st.sidebar.text_input('Entere your name please', 'Lilia Litviakova')
 
 st.subheader(f'🚀 An awesome data visual app made by {st_name} with love 🚀')
 
