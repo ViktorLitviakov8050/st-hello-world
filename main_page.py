@@ -25,7 +25,7 @@ def add_potential_to_df(df, user_input_coef=1.1):
 
 st.title("Streamlit App")
 
-st.subheader("An awesome data visualization app")
+st.subheader("An awesome data visualization app made by Viktor)")
 
 
 # Task
