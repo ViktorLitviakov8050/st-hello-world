@@ -25,7 +25,7 @@ def add_potential_to_df(df, user_input_coef=1.5):
     return df
 
 
-st.title("🚗   Streamlit App Autodoc   🚜")
+st.title("🚗   Streamlit App Auto   🚜")
 
 st_name = st.text_input('Entere your name please', '')
 
